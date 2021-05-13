@@ -211,6 +211,8 @@ body, html {
 
    .web-card {
      position: relative;
+     min-width: 107%;
+     max-height: 100%;
    }
    
          /* 1953 */
