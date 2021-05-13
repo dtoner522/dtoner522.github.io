@@ -1,0 +1,341 @@
+body, html {
+    height: 100%;
+  }
+  
+  body {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617270733/disc4_yptvd2.png");
+    background-attachment: scroll;
+    background-color: lightblue;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin :0px;
+    background-attachment: fixed;
+  }
+  #navposit {
+    width: 100%;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); */
+  
+    /*pushes down bg without this */
+    /* position: absolute; 
+    background: none; */
+  }
+
+  .container {
+    height: 90vh;
+  }
+
+  .col-md-4 {
+    background-color: transparent;
+  }
+  
+  .box, .box-2 {
+    display: flex;
+    font-family: "Jost";
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    border: white solid 2px;
+    max-height: 50%;
+    margin: 0;
+    overflow: hidden;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .about {
+    font-family: "Jost";
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    border: white solid 2px;
+  }
+
+  .about-show {
+    font-family: "Jost";
+    font-size: 2rem;
+    text-align: left;
+    max-height: auto;
+    min-height: 85%;
+    color: slategray;
+    background-color: none;
+    overflow: visible;
+  }
+
+  .pic-box {
+    display: flex;
+    font-family: "Jost";
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    max-height: 50%;
+    margin: 0;
+    overflow: hidden;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .profile-box {
+    display: flex;
+    max-height: 85%;
+    margin: 0;
+    overflow: hidden;
+
+  }
+
+  .form-box {
+    display: flex;
+    font-family: "Jost";
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .pic-box-1953B {
+    max-height: 50%;
+    min-height: 50%;
+  }
+
+  .pic-box-IH {
+    height: 50%;
+  }
+
+
+  /* ------images-------- */
+
+  .image-1953 {
+    height: 100%;
+    width: auto;
+    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617474049/DDD/19531_h6rt0z.png");
+    background-size: cover;
+
+  }
+
+  p {
+    font-family: "Open Sans";
+    color: slategray;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  h1 {
+    display: flex;
+    font-family: "Jost";
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  title {
+    font-family: "Jost";
+    font-size: 2rem;
+    text-align: left;
+    color: slategray;
+  }
+
+  .profile-img {
+    height: 60%;
+  }
+
+  /* -----Navbar----- */
+  
+  .navlink:link, .navlink:visited {
+    color:	white;
+    font-family: "Jost";
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-right: 12px;
+    text-decoration: none;
+  }
+  
+  #navbarDropdownMenuLink {
+    color: white;
+    font-family: "Jost";
+    font-weight: 400;
+    font-style: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+  }
+
+  .navbar-nav .dropdown-menu {
+    max-width: fit-content;
+  }
+
+  #navbarDropdownMenuLink:hover {
+    color: #66CCCC;
+  }
+  #web0:hover{
+    color:#33FFFF;
+  }
+  #web1:hover {
+   color:#66CCCC ;
+  }
+  #web2:hover {
+    color: #56c1d1 ;
+   }
+   #web3:hover {
+    color: #52b4d3 ;
+   }
+   #web4:hover {
+    color: #6699CC ;
+   }
+   #web5:hover {
+    color:#3792E6;
+   }
+
+   a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  #web1, #web2, #web3 {
+    color: slategray;
+  }
+
+
+
+
+
+   /* --------website-cards------------ */
+
+   .web-card {
+     position: relative;
+   }
+   
+         /* 1953 */
+  .overlay-1953 {
+    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617394116/DDD/Screenshot_2021-04-02_22_00_01_uof8ug.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease-out;
+  }
+
+  .web-card:hover .overlay-1953 {
+  width: 100%;
+}
+
+       /* Island Hopper */
+  .overlay-IH {
+  background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1619012490/DDD/IH1_lrtmjw.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.web-card:hover .overlay-IH {
+  bottom: 0;
+  height: 100%;
+}
+
+
+/* -----Ovrwhelm----- */
+
+.overlay-OW {
+  background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1620912982/DDD/FP1_fpkx18.png");
+  background-size: cover;
+  /* background-position: center; */
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.web-card:hover .overlay-OW {
+  width: 100%;
+  left: 0;
+}
+
+/* -------icon links----- */
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.carousel {
+  border: whitesmoke 2px solid;
+}
+
+.about-me {
+  width: 66%;
+}
+
+.submit {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+/* --------Modal-------- */
+
+.modal-lg {
+  max-width: 85%;
+}
+
+.modal-content {
+  border: 0px;
+  border-radius: 0%;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.btn-default {
+  color: slategray;
+  font-weight: bold;
+}
+
+image {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* ----Form---- */
+
+.form-control {
+  border-radius: 0 !important;
+}
