@@ -251,7 +251,7 @@ body, html {
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 100%;
+  width: 100%:
   height:0;
   transition: .5s ease;
 }
@@ -265,9 +265,11 @@ body, html {
 /* -----Ovrwhelm----- */
 
 .overlay-OW {
-  background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1620912982/DDD/FP1_fpkx18.png");
+  background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1624550571/DDD/fp1_hfj5zj.png");
   background-size: cover;
-  /* background-position: center; */
+  background-position: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
   left: 100%;
